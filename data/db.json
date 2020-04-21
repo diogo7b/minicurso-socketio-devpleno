@@ -5,14 +5,14 @@
       "turn": 1,
       "bids": [
         {
-          "time": 42,
+          "time": 43,
           "half": 1,
           "team": "Flamengo",
           "subject": "Para Fora",
           "description": "Mais uma excelente oportunidade para o Flamengo. Berrío. Mais oportunidade para o Flamengo. Berrío. Mais uma oportunidade para o Flamengo. Berrío. Mais uma excelente oportunidade para o Flamengo. Berrío."
         },
         {
-          "time": 43,
+          "time": 42,
           "half": 1,
           "team": "Flamengo",
           "subject": "Para Fora",
@@ -23,8 +23,8 @@
         "name": "Flamengo",
         "abbr": "FLA",
         "badge": "logo1.png",
-        "supporters": 0,
-        "score": 2,
+        "supporters": 25,
+        "score": 0,
         "players": [
           {
             "name": "Alex Muralha",
@@ -48,8 +48,8 @@
         "name": "Atlético-MG",
         "abbr": "CAM",
         "badge": "logo2.png",
-        "supporters": 0,
-        "score": 1,
+        "supporters": 21,
+        "score": 0,
         "players": [
           {
             "name": "Alex Muralha",
@@ -75,21 +75,25 @@
       },
       "videos": [
         "gyCFuP3rM2w"
-      ]
+      ],
+      "porcentagem": {
+        "teamA": "54",
+        "teamB": "46"
+      }
     },
     {
       "id": "1",
       "turn": 1,
       "bids": [
         {
-          "time": 42,
+          "time": 43,
           "half": 1,
           "team": "Flamengo",
           "subject": "Para Fora",
           "description": "Mais uma excelente oportunidade para o Flamengo. Berrío. Mais oportunidade para o Flamengo. Berrío. Mais uma oportunidade para o Flamengo. Berrío. Mais uma excelente oportunidade para o Flamengo. Berrío."
         },
         {
-          "time": 43,
+          "time": 42,
           "half": 1,
           "team": "Flamengo",
           "subject": "Para Fora",
@@ -152,7 +156,11 @@
       },
       "videos": [
         "gyCFuP3rM2w"
-      ]
+      ],
+      "porcentagem": {
+        "teamA": 50,
+        "teamB": 50
+      }
     }
   ]
 }

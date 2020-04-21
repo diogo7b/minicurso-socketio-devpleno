@@ -9,6 +9,7 @@ $(function(){
   socket.on('score', function(score){
     console.log('score', score)
     // na lista jogos
+    console.log('score');
     $(".match-"+score.match+"-a").html(score.scoreA)
     $(".match-"+score.match+"-b").html(score.scoreB)
     // atualizar o jogo
@@ -30,6 +31,7 @@ $(function(){
       }
     }
   })
+
   socket.on('supporters', function(supporters){
     console.log(supporters)
     $(".bar-team-a").css('width', supporters.teamA+'%')

@@ -44,8 +44,8 @@
         <div class="column w-col w-col-2"><a class="button w-button" id="na-torcida-a" href="#">Na Torcida</a>
         </div>
         <div class="w-clearfix w-col w-col-8">
-          <div class="bar-team-a" style="width: 50%"></div>
-          <div class="bar-team-b" style="width: 50%"></div>
+          <div class="bar-team-a" style="width: <%- match.porcentagem.teamA %>%"></div>
+          <div class="bar-team-b" style="width: <%- match.porcentagem.teamB %>%"></div>
         </div>
         <div class="column-2 w-col w-col-2"><a class="button w-button" id="na-torcida-b" href="#">Na Torcida</a>
         </div>
@@ -169,6 +169,7 @@
   </script>
   <% include partials/footer %>
   <script src="/js/match.js"></script>
+  
   
   <div class="goooolllll">
     <div class="goooolllll-text">GOOOOOOOOOOOLLLLL!!!!</div>
